@@ -1,4 +1,4 @@
-Feature: 6. Change quantity in the cart
+Feature: Change quantity in the cart
   As a user, I want to be able to change the number of an item in the shopping cart
   so that I can buy more or less of it than I initially thought.
 
