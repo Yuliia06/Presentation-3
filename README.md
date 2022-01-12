@@ -8,6 +8,6 @@ Names                      GitHub ID
 Ammarah Ahmed             Ammarahahmed 
 Benjamin Sanros           Benjam1n66
 Emanuel                   xlefanx
-Nazmul Hoque
+Nazmul Hoque              mnhoque
 Tuba Khan 
 Yuliia Denysenko          Yuliia06
