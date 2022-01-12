@@ -20,9 +20,6 @@ module.exports = function () {
     await products[9].findElement(By.css('button[title="Öka antal"]')).click();
     await driver.sleep(1000);
 
-    //let itemsList = await $$('[class^="ProductListItemstyles__StyledWrapper"]');
-    // console.log('\nThe number of different products before deleting:\n', itemsList.length);
-
   });
 
   this.When(/^I click on “Empty shopping cart” button$/, async function () {
@@ -48,11 +45,6 @@ module.exports = function () {
     let emptyMiniCart =
       await $$('[class^="ProductListItemstyles__StyledWrapper"]')
         .then(found => !found.length);
-    if (emptyMiniCart === false) {
-      expect(console.log('\n!!!!!!!!!!!!!!!!!!!   ERORR: The shopping cart is not empty  !!!!!!!!\n'))
-    } else {
-      expect(emptyMiniCart).to.equal(true)
-    };
-
-  });
+    if (emptyMiniCart === false) 
+     
 }
