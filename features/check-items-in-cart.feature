@@ -1,4 +1,4 @@
-Feature: 4. Check items in shopping cart
+Feature: Check items in shopping cart
   As a user, I want to be able to see my shopping cart and the goods I have put in it should then be there
   so that I can buy them.
 
