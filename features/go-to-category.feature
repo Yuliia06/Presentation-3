@@ -12,3 +12,9 @@ Feature: 1. Open category
     When I click on menu button
     And I click on Vegetarian category button
     Then I am on the Vegetarian category page
+
+Scenario: Product category
+    Given In the menu section of "https://www.willys.se"
+    And I have selected the accept button
+    When I select drink category button
+    Then I should see items within that category
