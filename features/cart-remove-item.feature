@@ -1,4 +1,4 @@
-Feature: 7. Remove item from the cart
+Feature: Remove item from the cart
   As a user, I want to be able to remove an item from the shopping cart
   so that I can regret that I have put it there.
 
